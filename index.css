@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); 
 *{
     margin: 0;
     padding: 0;
@@ -39,27 +39,28 @@ section{
     margin-bottom:40px;
     line-height: 40px;
     letter-spacing: 3px;
+    font-weight: 100;
 }
 
 .content .info h3{
     letter-spacing: 2px;
 }
 
-.content .info h3 span{
+.content .info h3{
     font-weight: 800;
     font-size: 20px;
     margin-bottom:40px;
     line-height: 40px;
-    letter-spacing: 3px;
-    color: aqua;
+    letter-spacing: 2px;
 }
 
 .content .info p span{
     font-weight: 600;
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom:40px;
     line-height: 40px;
     letter-spacing: 3px;
+    font-weight: 100;
 }
 
 .media-icons{
