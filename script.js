@@ -186,15 +186,15 @@ submitbtn.addEventListener("click", () => {
       if (score <= 12) {
         //     quiz.innerHTML = `<h2>You have a score ${score}.</h2><button onclick="location.reload()">Reload</button></button>`;
         // }
-        quiz.innerHTML = `<h2>Very Conservative</h2><p></p><img src="imgs/VeryConservative.png" alt ="Very Conservative">`;
+        quiz.innerHTML = `<h2>Your Risk Profile is : Very Conservative</h2><p></p><img src="imgs/VeryConservative.png" alt ="Very Conservative">`;
       } else if (13 <= score && score <= 19) {
-        quiz.innerHTML = `<h2>Conservative </h2><p>A conservative investor is a person who is averse to risk and usually takes an over-cautious approach when it comes to their investments.<br>Since their risk appetite is very low, they tend to focus on investing in stable and low-risk investment options such as government-funded schemes, bank deposits, and gold.<br> For a conservative investor, capital protection and preservation are the highest priority.</p><img src="imgs/Conservative.png" alt ="Conservative">`;
+        quiz.innerHTML = `<h2>Your Risk Profile is : Conservative </h2><img src="imgs/Conservative.png" alt ="Conservative"><p>A conservative investor is a person who is averse to risk and usually takes an over-cautious approach when it comes to their investments.<br>Since their risk appetite is very low, they tend to focus on investing in stable and low-risk investment options such as government-funded schemes, bank deposits, and gold.<br> For a conservative investor, capital protection and preservation are the highest priority.</p>`;
       } else if (20 <= score && score <= 27) {
-        quiz.innerHTML = `<h2>Moderate.</h2><p>A moderate investor is a person who is generally neutral when it comes to investment risk. Such an investor generally takes on a little bit of a calculated risk in search of moderate to high returns. Their risk appetite is quite moderate and they adopt a more balanced approach towards investing, which entails equal amounts of investment in low-risk and high-risk instruments.</p><img src="imgs/Moderate.png" alt ="Moderate">`;
+        quiz.innerHTML = `<h2>Your Risk Profile is : Moderate.</h2><img src="imgs/Moderate.png" alt ="Moderate"><p>A moderate investor is a person who is generally neutral when it comes to investment risk. Such an investor generally takes on a little bit of a calculated risk in search of moderate to high returns. Their risk appetite is quite moderate and they adopt a more balanced approach towards investing, which entails equal amounts of investment in low-risk and high-risk instruments.</p>`;
       } else if (28 <= score && score <= 35) {
-        quiz.innerHTML = `<h2>Aggressive.</h2><p>An aggressive investor is a person who loves to take risks and adopts an over-optimistic approach towards investments. Such investors thrive under risk and are usually not afraid to put their investment capital on the line to earn high returns. Their risk appetite is very large and they tend to focus on volatile and high-risk investment options such as equity mutual funds, direct equity markets, and even derivatives.</p><img src="imgs/Aggressive.png" alt ="Aggressive">`;
+        quiz.innerHTML = `<h2>Your Risk Profile is : Aggressive.</h2><img src="imgs/Aggressive.png" alt ="Aggressive"><p>An aggressive investor is a person who loves to take risks and adopts an over-optimistic approach towards investments. Such investors thrive under risk and are usually not afraid to put their investment capital on the line to earn high returns. Their risk appetite is very large and they tend to focus on volatile and high-risk investment options such as equity mutual funds, direct equity markets, and even derivatives.</p>`;
       } else {
-        quiz.innerHTML = `<h2>High Aggressive.</h2><img src="imgs/HighAgressive.png" alt ="High Aggressive">`;
+        quiz.innerHTML = `<h2>Your Risk Profile is : High Aggressive.</h2><img src="imgs/HighAgressive.png" alt ="High Aggressive">`;
       }
     }
   }
