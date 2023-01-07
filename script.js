@@ -194,20 +194,20 @@ submitbtn.addEventListener('click', () => {
             if(score <=12){
             //     quiz.innerHTML = `<h2>You have a score ${score}.</h2><button onclick="location.reload()">Reload</button></button>`;
             // }
-            quiz.innerHTML = `<h2> Very Conservative.</h2><img src="imgs\Conservative.png" alt ="Very Conservative">`;
+            quiz.innerHTML = `<h2> Very Conservative.</h2><img src="imgs/VeryConservative.png" alt ="Very Conservative">`;
 
             }
             else if(13<=score<=19){
-                quiz.innerHTML = `<h2> Conservative.</h2><img src="imgs\Conservative.png" alt ="Very Conservative">`;
+                quiz.innerHTML = `<h2> Conservative.</h2><img src="imgs/Conservative.png" alt ="Conservative">`;
             }
             else if(20<=score<=27){
-                quiz.innerHTML = `<h2> Moderate.</h2><img src="imgs\Moderate.png" alt ="Very Conservative"><p></p>`;
+                quiz.innerHTML = `<h2> Moderate.</h2><img src="imgs/Moderate.png" alt = "Moderate"><p></p>`;
             }
             else if(28<=score<=35){
-                quiz.innerHTML = `<h2> Aggressive.</h2><img src="imgs\Aggressive.png" alt ="Very Conservative">`;
+                quiz.innerHTML = `<h2> Aggressive.</h2><img src="imgs/Aggressive.png" alt ="Aggressive">`;
             }
             else if(score>=36){
-                quiz.innerHTML = `<h2>High Aggressive.</h2><img src="imgs\HighAgressive.png" alt ="Very Conservative">`;
+                quiz.innerHTML = `<h2>High Aggressive.</h2><img src="imgs/HighAgressive.png" alt ="High Aggressive">`;
             }
            
         }
