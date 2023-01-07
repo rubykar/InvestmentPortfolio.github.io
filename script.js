@@ -194,7 +194,7 @@ submitbtn.addEventListener('click', () => {
             if(score <=12){
             //     quiz.innerHTML = `<h2>You have a score ${score}.</h2><button onclick="location.reload()">Reload</button></button>`;
             // }
-            quiz.innerHTML = `<h2> Very Conservative.</h2><img src="imgs/Conservative.png" alt ="Very Conservative">`;
+            quiz.innerHTML = `<h2> Very Conservative.</h2><img src="imgs\Conservative.png" alt ="Very Conservative">`;
 
             }
             else if(13<=score<=19){
