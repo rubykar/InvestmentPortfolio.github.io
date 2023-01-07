@@ -197,16 +197,16 @@ submitbtn.addEventListener('click', () => {
             quiz.innerHTML = `<h2> Very Conservative.</h2><img src="imgs/VeryConservative.png" alt ="Very Conservative">`;
 
             }
-            else if(13<=score<=19){
+            else if(13<=score && score<=19){
                 quiz.innerHTML = `<h2> Conservative.</h2><img src="imgs/Conservative.png" alt ="Conservative">`;
             }
-            else if(20<=score<=27){
-                quiz.innerHTML = `<h2> Moderate.</h2><img src="imgs/Moderate.png" alt = "Moderate"><p></p>`;
+            else if(20<=score && score<=27){
+                quiz.innerHTML = `<h2> Moderate.</h2><img src="imgs/Moderate.png" alt ="Moderate">`;
             }
-            else if(28<=score<=35){
+            else if(28<=score && score<=35){
                 quiz.innerHTML = `<h2> Aggressive.</h2><img src="imgs/Aggressive.png" alt ="Aggressive">`;
             }
-            else if(score>=36){
+            else{
                 quiz.innerHTML = `<h2>High Aggressive.</h2><img src="imgs/HighAgressive.png" alt ="High Aggressive">`;
             }
            
