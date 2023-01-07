@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Cabin);
+@import url("https://fonts.googleapis.com/css?family=Cabin");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap'); 
 
 body {
@@ -102,28 +102,30 @@ form {
   border: #30aed6 solid 3px;
 }
 
-button{
-    background-color: blue;
-    display: block;
-    border: none;
-    width: 100%;
-    cursor:pointer;
-    color: #000;
-    padding:1.2rem;
-    font-family: inherit;
-    font-size: 1.2rem;
-    font-weight: bolder;
+input[type=text] {
+  padding:5px; 
+  border:2px solid #ccc; 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 
-button a{
-    color: white;
-    font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 3px;
+input[type=text]:focus {
+  border-color:#333;
 }
 
-button:hover{
-    background-color: black;
+input[type=submit] {
+  padding:5px 15px; 
+  background:blue; 
+  font-size: large;
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+  width: 100%;
+  height: 100%;
+  font-weight:bold;
+  font-size: 30px;
+  font-family:'Poppins', sans-serif ;
 }
 a:link { text-decoration: none; }
 
