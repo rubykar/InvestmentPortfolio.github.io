@@ -83,7 +83,7 @@ const quizData = [
   {
     question:
       "Describe your Risk Range. What level of losses and profits you would be comfortable with?",
-    a: "Worst Year = 1% and Best Year = 15 % ",
+    a: "Worst Year = -1% and Best Year = 15 % ",
     b: "Worst Year = -5% and Best Year = 20%",
     c: "Worst Year = -10% and Best Year = 25%",
     d: "Worst Year = -15% and Best Year = 30%",
